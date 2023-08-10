@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;0,900;1,400&family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --txt-cl: #333;
+    --main-color: rgb(61, 107, 198);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--txt-cl);
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--txt-cl);
+}
+
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    height: 80px;
+    padding: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #fff;
+}
+
+header.active {
+    background-color: #fff;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+header.active .logo a {
+    color: var(--main-color);
+}
+
+.logo a {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+}
+
+header.active nav a {
+    color: var(--txt-cl);
+}
+
+.flag {
+    margin-left: auto;
+    display: flex;
+    gap: 25px;
+}
+
+.flag img {
+    width: 35px;
+}
+
+/* FOOTER */
+footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
