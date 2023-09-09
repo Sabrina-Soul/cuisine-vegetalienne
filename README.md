@@ -18,8 +18,6 @@
 <p>This activity is just a beginning for me and I love what I do.</p>
 
 <p>Have a wonderful day...</p>
-
-<p>Sabrina Soul</p>
     
 </body>
 </html>
