@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My activity</title>
+    <title>My activities</title>
 </head>
 <body>
 
@@ -15,9 +15,9 @@
 
 <p>I am interested in web and applications/softwares development.</p>
 
-<p>This activity is just a beginning for me and I love what I do.</p>
+<p>I am a beginner</p>
 
-<p>Have a wonderful day...</p>
+<p>Have a wonderful day</p>
     
 </body>
 </html>
