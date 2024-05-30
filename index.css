@@ -1,6 +1,6 @@
 /* HERO */
 .hero-section {
-    background-color: green;
+    background-color: yellow;
     min-height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.743), transparent), url(../img/pexels-pixabay-434258.jpg);
     background-size: cover;
