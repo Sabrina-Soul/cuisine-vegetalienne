@@ -1,8 +1,8 @@
 /* HERO */
 .hero-section {
-    background-color: yellow;
+    background-color: #1a1a2e;
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.743), transparent), url(../img/pexels-pixabay-434258.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.743), transparent), url(assets/img/pexels-pixabay-434258.jpg);
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 180px;
+    gap: 40px;
 }
 
 .hero-section h1 {
@@ -25,6 +25,7 @@
     color: #fff;
     padding: 10px 30px;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 /* WELCOME */
@@ -43,7 +44,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 150px;
+    gap: 40px;
     margin: 0 auto;
 }
 
@@ -69,8 +70,9 @@
     width: 210px;
     height: 210px;
     border-radius: 100%;
+    object-fit: cover;
 }
 
 .card-title {
     text-transform: uppercase;
-}
+}   
