@@ -29,20 +29,13 @@ header {
     gap: 50px;
     width: 100%;
     height: 80px;
-    padding: 100px;
+    padding: 0 50px;
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1000;
+    background-color: #1a1a2e;
     color: #fff;
-}
-
-header.active {
-    background-color: #fff;
-    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
-}
-
-header.active .logo a {
-    color: var(--main-color);
 }
 
 .logo a {
@@ -59,10 +52,6 @@ nav {
 
 nav a {
     color: #fff;
-}
-
-header.active nav a {
-    color: var(--txt-cl);
 }
 
 .flag {
@@ -84,4 +73,4 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 0 30px;
-}
+}   
