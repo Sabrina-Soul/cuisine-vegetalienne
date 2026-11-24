@@ -1,24 +1,12 @@
-# cuisine-vegetalienne
 
+# La Cuisine Végétalienne
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My activities</title>
-</head>
-<body>
+Site web de référence pour apprendre à cuisiner végétalien : entrées, plats de résistance, desserts et webinaires en ligne.
 
+## Technologies
 
-<p>Good morning,</p>
+- HTML5
+- CSS3
 
-<p>I am interested in web and applications/softwares development.</p>
-
-<p>I am a beginner</p>
-
-<p>Have a wonderful day</p>
-    
-</body>
-</html>
-
+## Structure
+   
